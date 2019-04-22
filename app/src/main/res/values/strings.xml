@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">UTravel</string>
+
+    <!-- Page Names -->
+    <string name="login_page">Login</string>
+    <string name="user_control_page">Activity Center</string>
+    <string name="all_booked_flights_page">Booked Flights</string>
+    <string name="flight_search">Flight Search</string>
+    <string name="flight_search_result">Search Result</string>
+    <string name="user_personal_info_page">Personal Information</string>
+    <string name="search_itineraries">Search Itinerary</string>
+    <string name="edit_flight">Edit Flight</string>
+    <string name="edit_flight_num">Flight</string>
+    <string name="edit_user">Edit Client</string>
+    <string name="client_upload">Clients upload</string>
+    <string name="upload_flights">Flights Upload</string>
+    <string name="upload_clients">Clients Upload</string>
+    <string name="itineraries_result">Results</string>
+
+
+    <!-- General -->
+    <string name="submit">Submit</string>
+    <string name="confirm">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+
+    <!-- Main -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Submit</string>
+    <string name="instruction">Please enter your information to login</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="loading_login_title">Logging In</string>
+    <string name="loading_login_message">Please wait.</string>
+
+
+    <!-- UserControl -->
+    <string name="welcome_user">Welcome</string>
+    <string name="login_error">Info incorrect, please try again.</string>
+    <string name="view_booked_flights_text">Booked Flights</string>
+    <string name="view_all_flights_text">Search Flights</string>
+    <string name="view_personal_info_text">Edit Personal Info</string>
+    <string name="view_all_itineraries_text">Search Itineraries</string>
+    <string name="admin_mode_text">Admin Controls</string>
+    <string name="enter_user_text">Login to a Client to book itineraries and edit personal info on their behalf.</string>
+    <string name="view_client_mode">Enter Client (Edit Clients)</string>
+    <string name="upload_flights_text">Upload Flights</string>
+    <string name="upload_clients_text">Upload Clients</string>
+
+    <string name="edit_flight_text">Edit Flights</string>
+
+
+    <!-- AllBookedFlights -->
+    <string name="all_booked_flights_text">Here are all your booked flights…</string>
+    <string name="all_booked_flights_itineraries">None…</string>
+
+
+    <!-- SearchFlight -->
+    <string name="search_box_origin">Origin Location</string>
+    <string name="search_box_destination">Destination Location</string>
+    <string name="search_box_date">Date of Travel (YYYY-MM-DD)</string>
+    <string name="search_button_text">Find that FLIGHT!</string>
+    <string name="no_result">No result.</string>
+
+
+    <!-- Flight Specific Text -->
+    <string name="flight_arrival_date">Arrival Time: </string>
+    <string name="flight_departure_date">Departure Time: </string>
+    <string name="flight_total_travel_time">Total Travel Time: </string>
+    <string name="flight_total_travel_time_2">minutes</string>
+    <string name="flight_seats_remaining">seats remaining.</string>
+    <string name="money_symbol">$</string>
+
+
+    <!-- User's Personal Info -->
+    <string name="user_first_name_text">First Name</string>
+    <string name="user_last_name_text">Last Name</string>
+    <string name="user_password_text">Password</string>
+    <string name="user_password_text_show">Show Password</string>
+    <string name="user_email_text">Email (Unchangeable)</string>
+    <string name="user_address_text">Address</string>
+    <string name="user_credit_card_text">Credit Card Number</string>
+    <string name="user_credit_card_expiry_text">Credit Card Expiry Date (YYYY-MM-DD)</string>
+    <string name="personal_info_submit_button">Edit</string>
+
+
+    <!-- SearchItineraries -->
+    <string name="search_origin">Origin</string>
+    <string name="search_destination">Destination</string>
+    <string name="search_date">Date</string>
+
+    <string name="book_help_message">Tap within any Itinerary to book the Itinerary!</string>
+
+
+    <string name="book_title">Book Itinerary</string>
+    <string name="book_message">Are you sure you want to book this Itinerary?</string>
+    <string name="book_success_title">Success!</string>
+    <string name="book_success_message">Itinerary successfully booked!</string>
+    <string name="book_failed_title">Failed!</string>
+    <string name="book_failed_message">Itinerary was unable to be booked! Check to see if there are enough seats left on the Flights!</string>
+
+
+    <!-- AdminEditUser -->
+    <string name="user_email_input">User Email</string>
+    <string name="user_search_submit">Get User</string>
+
+
+    <!-- EditFlight -->
+    <string name="enter_flight_num_text">Enter a Flight number to edit:</string>
+    <string name="flight_number_text">Flight Number</string>
+    <string name="flight_num_seats">Seats</string>
+    <string name="flight_arrival_time">Arrival Date (YYYY-MM-DD HH:MM)</string>
+    <string name="flight_departure_time">Departure Date (YYYY-MM-DD HH:MM)</string>
+    <string name="flight_cost">Price</string>
+    <string name="flight_origin">Origin</string>
+    <string name="flight_destination">Destination</string>
+    <string name="flight_airline">Airline</string>
+    <string name="flight_submit_button">Submit</string>
+
+    <string name="flight_error_title">Error</string>
+    <string name="flight_error_message">Flight not found.</string>
+    <string name="flight_error_message_2">does not exist!</string>
+    <string name="flight_confirm_button">OK</string>
+
+    <!-- UploadFlights -->
+    <string name="enter_flight_filename_text">Please enter the name of the file that contains all the Flights to upload.</string>
+    <string name="enter_flight_filename_hint">Flight file</string>
+    <string name="upload_flight_success_title">Success!</string>
+    <string name="upload_flight_success_message">Flights successively uploaded to database.</string>
+    <string name="upload_flight_file_not_found_title">File not found!</string>
+    <string name="upload_flight_file_not_found_message">The given file does not exist. Please try again.</string>
+    <string name="upload_flight_file_read_error_title">File read error!</string>
+    <string name="upload_flight_file_read_error_message">Please make sure the file is in the correct format and try again.</string>
+    
+    <!-- UploadClients -->
+    <string name="upload_client_success">Uploaded</string>
+    <string name="upload_client_success_title">Success!</string>
+    <string name="upload_client_success_message">Client uploaded to database</string>
+    <string name="upload_client_file_not_found">File not found</string>
+    <string name="upload_client_file_does_not_exist">File does not exist</string>
+    <string name="upload_client_file_read_error">Error reading the file</string>
+    <string name="upload_client_file_read_error_message">Make sure the file is in the correct format</string>
+
+</resources>

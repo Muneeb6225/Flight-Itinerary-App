@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="padding_btwn_views">20dp</dimen>
+
+    <!-- UserControl -->
+    <dimen name="welcome_text">20dp</dimen>
+    <dimen name="admin_text">17dp</dimen>
+
+    <!-- FlightResult -->
+    <dimen name="flight_num_size">15dp</dimen>
+
+    <!-- Itineraries Result -->
+    <dimen name="itinerary_number">15dp</dimen>
+    <dimen name="itinerary_cost">7dp</dimen>
+    <dimen name="itinerary_time">5dp</dimen>
+    <dimen name="itinerary_flight_number">10dp</dimen>
+    <dimen name="itinerary_flight_airline">7dp</dimen>
+    <dimen name="itinerary_flight_travel">7dp</dimen>
+
+</resources>
